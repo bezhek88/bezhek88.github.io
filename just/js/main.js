@@ -1,4 +1,4 @@
-
+//active navbar
 
 $("li").click(function () {
     $("li.active").removeClass("active");
@@ -6,6 +6,7 @@ $("li").click(function () {
 });
 
 
+// slick slider
 
 $('.slider').slick({
     dots: false,
@@ -14,3 +15,5 @@ $('.slider').slick({
     fade: true,
     cssEase: 'linear'
 });
+
+

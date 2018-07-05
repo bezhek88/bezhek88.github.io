@@ -16,7 +16,7 @@
 </head>
 <body>
 <header>
-  <div class="top-info">
+  <div class="top-header">
      <div class="navigation">
         <a href="index.html" class="logo">Fapor</a>
         <ul class="navbar">
@@ -30,7 +30,7 @@
   </div>
   <h1 class="headline">More About US</h1>
 </header>
-<main>
+<section class="content">
   <h2 class="title">Management</h2>
   <div class="members">
       <div class="member-box clear">
@@ -75,26 +75,26 @@
       <h2 class="title">WHAT OUR CLIENTS SAY</h2>
       <div class="slider">
           <div class="references-info">
-              <img class="client-photo" src="img/client1.png" alt="">
+              <div><img class="client-photo" src="img/client1.png" alt="" /></div>
               <p class="client-feedback">Praesent tincidunt molestie Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci atque eveniet hic ipsa itaque optio praesentium, quasi temporibus veniam! libero mollis porta. Faucibus leo, ac aliquet magna. Vivamus ullamcorper mollis leo, at sagittis mi pellentesque quis. Praesent nec elit tristique.</p>
               <p class="client-name">Larry Jane</p>
               <p class="client-position">General Manager</p>
           </div>
           <div class="references-info">
-              <img class="client-photo" src="img/client1.png" alt="">
+              <div><img class="client-photo" src="img/client1.png" alt=""></div>
               <p class="client-feedback">Praesent Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, voluptates. tincidunt molestie libero mollis porta. Faucibus leo, ac aliquet magna. Vivamus ullamcorper mollis leo, at sagittis mi pellentesque quis. Praesent nec elit tristique.</p>
               <p class="client-name">Jane</p>
               <p class="client-position">General</p>
           </div>
           <div class="references-info">
-              <img class="client-photo" src="img/client1.png" alt="">
+              <div><img class="client-photo" src="img/client1.png" alt=""></div>
               <p class="client-feedback">Praesent Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam ea explicabo ipsa magni neque odio perferendis quidem sint, veniam. tincidunt molestie libero mollis porta. Faucibus leo, ac aliquet magna. Vivamus ullamcorper mollis leo, at sagittis mi pellentesque quis. Praesent nec elit tristique.</p>
               <p class="client-name">Larry</p>
               <p class="client-position">Manager</p>
           </div>
       </div>
   </div>
-</main>
+</section>
 <footer>
     <div class="footer-info">
         <div class="info-box">
@@ -113,8 +113,10 @@
         <div class="info-form">
             <h3 class="info-title">Contact INFO</h3>
             <form action="#">
-                <input type="email" placeholder="Enter your email address" />
-                <button type="button" class="form-btn">SUBSCRIBLE NOW</button>
+                <label>
+                    <input type="email" placeholder="Enter your email address" />
+                    <button type="submit" class="form-btn">SUBSCRIBLE NOW</button>
+                </label>
             </form>
         </div>
     </div>
